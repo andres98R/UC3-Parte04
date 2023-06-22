@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+    <ul>
+        {% for curso in cursos %}
+            <li>
+                {{forloop.counter}}. {{curso}}
+            </li>
+        {% endfor %}
+
+    </ul>
+{% endblock content %}
