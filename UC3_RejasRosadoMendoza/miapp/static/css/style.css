@@ -1,0 +1,45 @@
+nav{
+    width: auto;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #F5B335;
+    border: 1px solid #333333;
+
+    font-size: 12px;
+    font-family: Arial;
+
+    }
+    /*Zona de enlaces*/
+    nav ul{
+    list-style: none;
+    text-decoration: none;
+    }
+    nav ul li{
+    line-height: 40px;
+    float: left;
+    }
+    /*Hipervinculos*/
+    nav ul li a{
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #717171;
+    }
+    /*Efecto en Hipervínculos*/
+    #content{
+        width: auto;
+        min-height: 930px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        }
+        .box{
+        background: #004A98;
+        width: auto;
+        min-height: 930px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        margin: 0 auto;
+        }
+                

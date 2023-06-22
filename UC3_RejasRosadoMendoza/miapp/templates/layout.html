@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+
+    </title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+</head>
+
+<body>
+    <header>
+        <div id="logotipo">
+            <img src="{% static 'images/logo.png' %}" />
+
+        </div>
+
+    </header>
+
+   
+    <nav>
+        <ul>
+            <li>
+                <a href="/inicio"> Inicio</a>
+            </li>
+            <li>
+                <a href="/saludo"> Primos[a,b]</a>
+            </li>
+            <li>
+                <a href="/rango"> Examen</a>
+            </li>
+
+        </ul>
+    </nav>
+   
+    <div id="content">
+        <div class="box">
+            
+            {% block content %}
+            
+            {% endblock %}
+        </div>
+    </div>
+    <footer>
+        UNTELS - LP3 Rosado Rejas Mendoza - {% now
+        "d/m/Y h:m:s" %}
+
+
+
+    </footer>
+</body>
+
+</html>
