@@ -27,6 +27,12 @@ def is_prime(num):
     return True
 
 def rango(request,a=1,b=100):
+
+    if (a>b):
+        aux = a
+        a = b
+        b = aux
+    
     numeros_primos = [num for num in range(a, b + 1) if is_prime(num)]
 
     arraynumero= []
